@@ -39,7 +39,7 @@ body, html {
               <div class="w3-bar w3-white w3-card" id="myNavbar">
                   <asp:Panel ID="Panel1" runat="server">
                     <a href="Home.aspx" class="w3-bar-item w3-button w3-wide" style="text-decoration-line:none"><b>
-                        <%--<asp:Image ID="Image2" ImageUrl="~/images/Logo.jpg" Width="40px" Height="40px" runat="server" />&nbsp;&nbsp;--%>COLLEGE EVENT MANAGEMENT</b></a>
+                        <%--<asp:Image ID="Image2" ImageUrl="~/images/Logo.jpg" Width="40px" Height="40px" runat="server" />&nbsp;&nbsp;--%>INTER-COLLEGE EVENT MANAGEMENT</b></a>
                     
                     <div class="w3-right w3-hide-small">
                       <a href="Home.aspx" class="w3-bar-item w3-button"><i class="fa fa-home"></i> Home</a>
@@ -50,7 +50,7 @@ body, html {
                    </asp:Panel>
 
                   <asp:Panel ID="Panel2" runat="server">
-                    <a href="#" class="w3-bar-item w3-button w3-wide"><b>COLLEGE EVENT MANAGEMENT</b></a>
+                    <a href="#" class="w3-bar-item w3-button w3-wide"><b>INTER-COLLEGE EVENT MANAGEMENT</b></a>
                     
                     <div class="w3-right w3-hide-small">
                         <a href="CollegeReg.aspx" class="w3-bar-item w3-button"><i class="fa fa-user"></i> College Registration</a>
@@ -64,7 +64,7 @@ body, html {
                    </asp:Panel>
 
                   <asp:Panel ID="Panel3" runat="server">
-                    <a href="#home" class="w3-bar-item w3-button w3-wide"><b>COLLEGE EVENT MANAGEMENT</b></a>
+                    <a href="#home" class="w3-bar-item w3-button w3-wide"><b>INTER-COLLEGE EVENT MANAGEMENT</b></a>
                     
                     <div class="w3-right w3-hide-small">
                         <a href="AssignedEvents.aspx" class="w3-bar-item w3-button"><i class="fa fa-user-circle"></i> Assinged Events</a>
@@ -74,7 +74,7 @@ body, html {
                   </asp:Panel>
 
                   <asp:Panel ID="Panel4" runat="server">
-                    <a href="#" class="w3-bar-item w3-button w3-wide"><b>COLLEGE EVENT MANAGEMENT</b></a>
+                    <a href="#" class="w3-bar-item w3-button w3-wide"><b>INTER-COLLEGE EVENT MANAGEMENT</b></a>
                     
                     <div class="w3-right w3-hide-small">
                       <a href="EventDetails.aspx" class="w3-bar-item w3-button"><i class="fa fa-book"></i> Events</a>

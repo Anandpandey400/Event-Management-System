@@ -63,16 +63,16 @@ public partial class Project_Participants : System.Web.UI.Page
                 ds = new DataSet();
                 da.Fill(ds);
                 count = count + 1;
-
-              //  string name = ds.Tables[0].Rows[1][0].ToString();
+                
+                string name = ds.Tables[0].Rows[0][0].ToString();
                 string email = ds.Tables[0].Rows[0][1].ToString();
                 string contact = ds.Tables[0].Rows[0][2].ToString();
                 string college = ds.Tables[0].Rows[0][3].ToString();
 
-                DropDownListStudents.Items.Add(email);
+                DropDownListStudents.Items.Add(name);
                 
                 LabelPrint.Text += "<table style='width:80%'><tr><td rowspan='3' style='width: 6%; vertical-align: top; font-weight: bold; font-size: x-large;'>" + count.ToString() + ".</td>";
-               // LabelPrint.Text += "<td style='font-size: large; font-weight: bold; text-align: left; background-color: #909090; color: #FFFFFF;' colspan='2'>&nbsp;&nbsp; " + name + "</td></tr>";
+               LabelPrint.Text += "<td style='font-size: large; font-weight: bold; text-align: left; background-color: #909090; color: #FFFFFF;' colspan='2'>&nbsp;&nbsp; " + name + "</td></tr>";
                 LabelPrint.Text += "<tr><td style='width: 60%; text-align: left;'>&nbsp;&nbsp; " + email + "</td>";
                 LabelPrint.Text += "<td rowspan='2' style='vertical-align: middle; font-size: large; padding-left: 0px; border-left-style: solid; border-left-width: 1px; border-left-color: #333333; text-align: center;'>" + college + "</td></tr>";
                 LabelPrint.Text += "<tr><td style='width: 60%; text-align: left;'>&nbsp;&nbsp; " + contact + "</td></tr></table><hr /><br />";

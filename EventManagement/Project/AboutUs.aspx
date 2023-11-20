@@ -17,10 +17,19 @@
     <h1>About Us</h1>
         
             <br />
-    <span class="auto-style1"><strong><em>......
+    <span class="auto-style1"><strong><em>Welcome to our innovative Inter-college event management system, 
+       
+
+
+
+
     <br />
     <br />
-    <asp:Image ID="Image3" runat="server" ImageUrl="~/images/Banner.jpg" Width="50%" />
+   
+        
+
+
+
         <br />
         <br />
     <br />

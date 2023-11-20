@@ -43,18 +43,15 @@
     <div class="container">
         <h1>Contact Us</h1>
         <div class="contact-form">
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+            <asp:Label ID="Label1" runat="server" Text="Name"></asp:Label>
+            <asp:TextBox ID="name" runat="server"></asp:TextBox>
+            <asp:Label ID="Label2" runat="server" Text="Email"></asp:Label>
+            <asp:TextBox ID="email" runat="server"></asp:TextBox>
+            <asp:Label ID="Label3" runat="server" Text="Mesage"></asp:Label>
+            <asp:TextBox ID="message" runat="server" Rows="5" TextMode="MultiLine"></asp:TextBox>
+            <asp:Label ID="lmessage" runat="server"></asp:Label>
+            <asp:Button ID="Button1" OnClick="hh_click" runat="server" Text="Send" />
 
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="2" required></textarea>
-
-                <button type="submit">Submit</button>
-            </form>
         </div>
     </div>
 

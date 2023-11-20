@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Web;
 
 public class FillGraph
 {
@@ -48,7 +45,7 @@ public class FillGraph
             output = output.Remove(output.Length - 1);
             output += @"]},
             options: {
-                title : { display: true, text: '"+title+@"' },
+                title : { display: true, text: '" + title + @"' },
 				tooltips: { mode: 'index', intersect: false},
 				responsive: true 
                 }
@@ -57,7 +54,7 @@ public class FillGraph
         }
         catch (Exception ep)
         {
-            output = "Error"+ep;
+            output = "Error" + ep;
         }
         return output;
     }
@@ -65,7 +62,7 @@ public class FillGraph
     public static string PieGraphScript(DataTable dt, string[] names, string varName, string title)
     {
         string output = "";
-        string[] colors = new string[] { "rgba(16,133,135,1)", "rgba(82,185,159,1)", "rgba(242,175,62,1)"};
+        string[] colors = new string[] { "rgba(16,133,135,1)", "rgba(82,185,159,1)", "rgba(242,175,62,1)" };
 
         try
         {

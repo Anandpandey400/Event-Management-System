@@ -11,6 +11,7 @@
     <center>
         <h2 style="font-family: 'Century Gothic'; font-size: xx-large; width:80%">VIDEOS</h2>
         <hr />
+          <video src="../images/mov_bbb.mp4" width="720" controls="controls" />" type="video/mp4" >
     
         </center>
     <br />

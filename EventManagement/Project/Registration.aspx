@@ -40,10 +40,7 @@
                         ForeColor="#990000" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"
                         Style="font-family: Calibri Light"></asp:RegularExpressionValidator>
                 </div>
-            </div>
-
-
-            
+            </div>            
 
             <div class="form-group">
                 <label class="col-md-5 control-label">Contact No :</label>
